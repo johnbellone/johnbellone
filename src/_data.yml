@@ -1,10 +1,15 @@
-lang: en
 menu_links: []
 extra_head: []
+author:
+  name: John Bellone
+  email: me@jbellone.dev
+links:
+  repo: https://github.com/johnbellone/johnbellone
+  github: https://github.com/johnbellone
+  linkedin: https://linkedin.com/in/johnbellone
+  youtube: https://youtube.com/@JohnBellone
+  twitter: https://twitter.com/johnbellone
 metas:
-  site: John Bellone
   description: General description of the blog
   title: "=title"
   image: "=image"
-  twitter: "@johnbellone"
-  lang: en
