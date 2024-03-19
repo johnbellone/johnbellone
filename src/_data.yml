@@ -1,0 +1,10 @@
+lang: en
+menu_links: []
+extra_head: []
+metas:
+  site: John Bellone
+  description: General description of the blog
+  title: "=title"
+  image: "=image"
+  twitter: "@johnbellone"
+  lang: en
