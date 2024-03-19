@@ -1,9 +1,12 @@
 <!doctype html>
-<html lang="{{ it.lang }}">
+<html lang="en">
   <head>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
-    <title>{{ it.title || metas.title }} - {{ metas.site }}</title>
+    <meta name="description" content="{{ description || metas.description }}" />
+    <meta property="og:description" content="{{ description || metas.description }}" />
+    <meta property="og:title" content="{{ title || metas.title }}" />
+    <title>{{ title || metas.title }} - {{ metas.site }}</title>
     <link rel="stylesheet" href="/styles.css">
     <link rel="alternate" href="/feed.xml" type="application/atom+xml" title="{{ metas.site }}">
     <link rel="alternate" href="/feed.json" type="application/json" title="{{ metas.site }}">
