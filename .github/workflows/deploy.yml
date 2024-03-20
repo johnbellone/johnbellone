@@ -16,6 +16,6 @@ jobs:
       - run: deno task build
       - uses: denoland/deployctl@v1
         with:
-          project: jbellone.dev
+          project: jbellone
           import-map: "./deno.json"
           entrypoint: serve.ts
